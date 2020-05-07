@@ -1,0 +1,9 @@
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\bin\Debug\netcoreapp3.1\Core.Models.deps.json
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\bin\Debug\netcoreapp3.1\Core.Models.dll
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.csprojAssemblyReference.cache
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.AssemblyInfoInputs.cache
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.AssemblyInfo.cs
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\bin\Debug\netcoreapp3.1\Core.Models.pdb
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.csproj.CoreCompileInputs.cache
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.dll
+D:\04Temp\Core.Easy\Core.Easy\Core.Models\obj\Debug\netcoreapp3.1\Core.Models.pdb

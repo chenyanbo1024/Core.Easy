@@ -1,0 +1,9 @@
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\bin\Debug\netcoreapp3.1\Core.Services.deps.json
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\bin\Debug\netcoreapp3.1\Core.Services.dll
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\bin\Debug\netcoreapp3.1\Core.Services.pdb
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csprojAssemblyReference.cache
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csproj.CoreCompileInputs.cache
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.AssemblyInfoInputs.cache
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.AssemblyInfo.cs
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.dll
+D:\04Temp\Core.Easy\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.pdb
