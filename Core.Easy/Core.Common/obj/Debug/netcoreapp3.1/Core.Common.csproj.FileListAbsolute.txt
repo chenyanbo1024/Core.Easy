@@ -1,9 +1,0 @@
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.deps.json
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.dll
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.pdb
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.csprojAssemblyReference.cache
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.csproj.CoreCompileInputs.cache
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.AssemblyInfoInputs.cache
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.AssemblyInfo.cs
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.dll
-D:\04Temp\Core.Easy\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.pdb
