@@ -1,0 +1,10 @@
+H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Services.deps.json
+H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Services.dll
+H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Services.pdb
+H:\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csprojAssemblyReference.cache
+H:\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csproj.CoreCompileInputs.cache
+H:\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.AssemblyInfoInputs.cache
+H:\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.AssemblyInfo.cs
+H:\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.csproj.CopyComplete
+H:\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.dll
+H:\Core.Easy\Core.Services\obj\Debug\netcoreapp3.1\Core.Services.pdb
