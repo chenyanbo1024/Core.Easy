@@ -45,7 +45,9 @@ H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.IServices.dll
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Model.dll
+H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.IServices.pdb
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Model.pdb
 H:\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csprojAssemblyReference.cache
 H:\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csproj.CoreCompileInputs.cache
@@ -73,5 +75,3 @@ H:\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\staticwebassets\Core.Web.StaticWeb
 H:\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.dll
 H:\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.pdb
 H:\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.genruntimeconfig.cache
-H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.IServices.dll
-H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.IServices.pdb

@@ -8,7 +8,7 @@ namespace Core.IRepository.Base
     /// 仓储基类
     /// </summary>
     /// <typeparam name="TEntity">数据传输对象</typeparam>
-    public interface IBaseRepository<TEntity, TKey> where TEntity : class
+    public interface IBaseRepository<TEntity> where TEntity : class
     {
         #region 增
 
@@ -24,13 +24,15 @@ namespace Core.IRepository.Base
 
         bool Delete(List<TEntity> entitys, bool isSaveChange = true);
 
+        bool Delete(Expression<Func<TEntity, bool>> predicate);
+
         #endregion 删(删除前需要查询)
 
         #region 改
 
-        bool Update(TEntity entity, bool isSaveChange, List<string> updatePropertyList);
+        bool Update(TEntity entity, bool isSaveChange = true, List<string> updatePropertyList = null);
 
-        bool Update(List<TEntity> entitys, bool isSaveChange = true, List<string> updatePropertyList);
+        bool Update(List<TEntity> entitys, bool isSaveChange = true, List<string> updatePropertyList = null);
 
         #endregion 改
 
@@ -38,9 +40,11 @@ namespace Core.IRepository.Base
 
         long Count(Expression<Func<TEntity, bool>> predicate = null);
 
-        TEntity Find(TKey id);
+        TEntity Find(object id);
 
         List<TEntity> GetList(Expression<Func<TEntity, bool>> predicate, string orderby, bool isNoTracking);
+
+        TEntity Single(Expression<Func<TEntity, bool>> predicate);
 
         #endregion 查
 
@@ -48,7 +52,9 @@ namespace Core.IRepository.Base
 
         void BulkInsert<T>(List<T> entities);
 
-        int ExecuteSql(string sql);
+        int ExecuteSqlRaw(string sql, params object[] para);
+
+        List<TEntity> FromSqlRaw(string sql, params object[] para);
 
         #endregion 执行SQL语句
     }

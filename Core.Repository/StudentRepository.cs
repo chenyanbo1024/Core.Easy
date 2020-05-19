@@ -1,6 +1,7 @@
 ﻿using Core.IRepository;
 using Core.Model;
 using Core.Model.EFDbContext;
+using Core.Repository.Base;
 
 namespace Core.Repository
 {

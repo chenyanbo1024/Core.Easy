@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 
 namespace Core.Repository.Base
 {
-    public class BaseRepository<TEntity, TKey> : IBaseRepository<TEntity, TKey> where TEntity : class
+    public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class,new()
     {
         public CoreContext _context { get; }
         public DbSet<TEntity> _dbset;
@@ -51,7 +51,7 @@ namespace Core.Repository.Base
             _dbset.Remove(entity);
             if (isSaveChange)
             {
-                _context.SaveChanges();
+               return  _context.SaveChanges() > 0;
             }
             return false;
         }
@@ -65,6 +65,11 @@ namespace Core.Repository.Base
                 _context.SaveChanges();
             }
             return false;
+        }
+
+        public bool Delete(Expression<Func<TEntity, bool>> predicate)
+        {
+
         }
 
         #endregion 删
@@ -136,7 +141,7 @@ namespace Core.Repository.Base
             return _dbset.LongCount(predicate);
         }
 
-        public TEntity Find(TKey id)
+        public TEntity Find(object id)
         {
             return _dbset.Find(id);
         }
@@ -151,6 +156,16 @@ namespace Core.Repository.Base
             return data.ToList();
         }
 
+        public TEntity Single(Expression<Func<TEntity, bool>> predicate)
+        {
+            TEntity entity = _dbset.Single(predicate);
+            if (entity == null)
+            {
+                entity = new TEntity();
+            }
+            return entity;
+        }
+
         #endregion 查
 
         #region 执行SQL语句
@@ -160,11 +175,15 @@ namespace Core.Repository.Base
             throw new NotImplementedException();
         }
 
-        public int ExecuteSql(string sql)
+        public int ExecuteSqlRaw(string sql, params object[] para)
         {
-            return _context.Database.ExecuteSqlRaw(sql);
+            return _context.Database.ExecuteSqlRaw(sql,para);
         }
 
+        public List<TEntity> FromSqlRaw(string sql,params object[] para)
+        {
+            return _dbset.FromSqlRaw(sql, para).ToList();
+        }
         #endregion 执行SQL语句
     }
 }

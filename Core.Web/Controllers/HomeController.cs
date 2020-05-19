@@ -4,6 +4,8 @@ using Core.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System.Linq;
+using System.Numerics;
 
 namespace Core.Web.Controllers
 {
@@ -39,11 +41,19 @@ namespace Core.Web.Controllers
             bool isSuc = _studentServices.Insert(new Student
             {
                 Class_ID = 1,
-                Name = "chengyb",
+                Name = "chen",
                 Gender = 1,
-                Stu_No = "15130948001"
+                Stu_No = "15130948002"
             });
             return Json(isSuc);
+        }
+
+        public IActionResult Remove()
+        {
+            //Student student = _studentServices.GetList(x => x.ID == 3, "", true).FirstOrDefault();
+            Student student1 = _studentServices.Find(2);
+            bool isSuc = _studentServices.Delete(student1);
+            return Json(student1);
         }
     }
 }

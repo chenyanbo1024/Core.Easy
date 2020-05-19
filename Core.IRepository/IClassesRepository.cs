@@ -1,4 +1,5 @@
-﻿using Core.Model;
+﻿using Core.IRepository.Base;
+using Core.Model;
 
 namespace Core.IRepository
 {
