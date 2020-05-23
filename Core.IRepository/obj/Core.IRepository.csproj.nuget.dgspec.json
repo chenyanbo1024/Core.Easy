@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj": {}
+    "H:\\NetCore\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj": {}
   },
   "projects": {
-    "H:\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj": {
+    "H:\\NetCore\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj",
+        "projectUniqueName": "H:\\NetCore\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj",
         "projectName": "Core.IRepository",
-        "projectPath": "H:\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj",
-        "packagesPath": "C:\\Users\\chen\\.nuget\\packages\\",
-        "outputPath": "H:\\Core.Easy\\Core.IRepository\\obj\\",
+        "projectPath": "H:\\NetCore\\Core.Easy\\Core.IRepository\\Core.IRepository.csproj",
+        "packagesPath": "C:\\Users\\chengyb\\.nuget\\packages\\",
+        "outputPath": "H:\\NetCore\\Core.Easy\\Core.IRepository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chengyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,13 +25,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "H:\\Core.Easy\\Core.Model\\Core.Model.csproj": {
-                "projectPath": "H:\\Core.Easy\\Core.Model\\Core.Model.csproj"
+              "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj": {
+                "projectPath": "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj"
               }
             }
           }
@@ -63,20 +63,20 @@
         }
       }
     },
-    "H:\\Core.Easy\\Core.Model\\Core.Model.csproj": {
+    "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Core.Easy\\Core.Model\\Core.Model.csproj",
+        "projectUniqueName": "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj",
         "projectName": "Core.Model",
-        "projectPath": "H:\\Core.Easy\\Core.Model\\Core.Model.csproj",
-        "packagesPath": "C:\\Users\\chen\\.nuget\\packages\\",
-        "outputPath": "H:\\Core.Easy\\Core.Model\\obj\\",
+        "projectPath": "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj",
+        "packagesPath": "C:\\Users\\chengyb\\.nuget\\packages\\",
+        "outputPath": "H:\\NetCore\\Core.Easy\\Core.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chengyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +84,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {

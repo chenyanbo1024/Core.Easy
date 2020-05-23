@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2YnP90Ks9M1usd7MAJREbpGjAlU7RwLlKpxNKSsKXgcXD4K0R16veAUcgO8SnZM5E9N/7BTdGlWt7e+K1VAtqw==",
+  "dgSpecHash": "gv6LSqx6wlqhlUDg4aIgBuLF+goyRLLvMPzlh7Mx50QHQGeD1tt/btmFXIvhl06A+1ou/w0Of+J0Jx7UsB1T6A==",
   "success": true,
-  "projectFilePath": "H:\\Core.Easy\\Core.Common\\Core.Common.csproj",
+  "projectFilePath": "H:\\NetCore\\Core.Easy\\Core.Common\\Core.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

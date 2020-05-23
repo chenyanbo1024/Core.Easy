@@ -10,3 +10,15 @@ H:\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.AssemblyInfo.
 H:\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.csproj.CopyComplete
 H:\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.dll
 H:\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.pdb
+H:\NetCore\Core.Easy\Core.IServices\bin\Debug\netcoreapp3.1\Core.IServices.deps.json
+H:\NetCore\Core.Easy\Core.IServices\bin\Debug\netcoreapp3.1\Core.IServices.dll
+H:\NetCore\Core.Easy\Core.IServices\bin\Debug\netcoreapp3.1\Core.IServices.pdb
+H:\NetCore\Core.Easy\Core.IServices\bin\Debug\netcoreapp3.1\Core.Model.dll
+H:\NetCore\Core.Easy\Core.IServices\bin\Debug\netcoreapp3.1\Core.Model.pdb
+H:\NetCore\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.csprojAssemblyReference.cache
+H:\NetCore\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.csproj.CoreCompileInputs.cache
+H:\NetCore\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.AssemblyInfoInputs.cache
+H:\NetCore\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.AssemblyInfo.cs
+H:\NetCore\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.csproj.CopyComplete
+H:\NetCore\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.dll
+H:\NetCore\Core.Easy\Core.IServices\obj\Debug\netcoreapp3.1\Core.IServices.pdb

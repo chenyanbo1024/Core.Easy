@@ -6,3 +6,12 @@ H:\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfoInputs.ca
 H:\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfo.cs
 H:\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.dll
 H:\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.pdb
+H:\NetCore\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.deps.json
+H:\NetCore\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.dll
+H:\NetCore\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.pdb
+H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.csprojAssemblyReference.cache
+H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.csproj.CoreCompileInputs.cache
+H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfoInputs.cache
+H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfo.cs
+H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.dll
+H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.pdb
