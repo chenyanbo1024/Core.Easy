@@ -67,11 +67,37 @@ namespace Core.Repository.Base
             return false;
         }
 
-        public bool Delete(Expression<Func<TEntity, bool>> predicate)
+        public bool Delete(Expression<Func<TEntity, bool>> predicate,bool isSaveChange = true)
         {
+            var list = GetList(predicate);
+            if (list.Count <= 0)
+            {
+                return false;
+            }
 
+            _dbset.RemoveRange(list);
+            if (isSaveChange)
+            {
+                return _context.SaveChanges() > 0;
+            }
+            return false;
         }
 
+        public bool Delete(object id,bool isSaveChange = true)
+        {
+            var data = Find(id);
+            if (data == null)
+            {
+                return false;
+            }
+
+            _dbset.Remove(data);
+            if (isSaveChange)
+            {
+                return _context.SaveChanges() > 0;
+            }
+            return false;
+        }
         #endregion 删
 
         #region 改

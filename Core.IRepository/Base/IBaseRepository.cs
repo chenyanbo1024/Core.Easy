@@ -24,8 +24,9 @@ namespace Core.IRepository.Base
 
         bool Delete(List<TEntity> entitys, bool isSaveChange = true);
 
-        bool Delete(Expression<Func<TEntity, bool>> predicate);
+        bool Delete(Expression<Func<TEntity, bool>> predicate,bool isSaveChange = true);
 
+        bool Delete(object id, bool isSaveChange = true);
         #endregion 删(删除前需要查询)
 
         #region 改
