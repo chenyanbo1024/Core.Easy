@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gv6LSqx6wlqhlUDg4aIgBuLF+goyRLLvMPzlh7Mx50QHQGeD1tt/btmFXIvhl06A+1ou/w0Of+J0Jx7UsB1T6A==",
+  "dgSpecHash": "l5qkIwsyjUwiRe6vQcR6J37Eu5U8/B2bldIYTrhK6TRXs8ZFO+bM46HTAgapMDHCI7y30hQrxSLeevOAV7x62g==",
   "success": true,
-  "projectFilePath": "H:\\NetCore\\Core.Easy\\Core.Common\\Core.Common.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "H:\\Core.Easy\\Core.Common\\Core.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

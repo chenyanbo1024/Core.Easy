@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 
 namespace Core.Repository.Base
 {
-    public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class,new()
+    public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class, new()
     {
         public CoreContext _context { get; }
         public DbSet<TEntity> _dbset;
@@ -51,7 +51,7 @@ namespace Core.Repository.Base
             _dbset.Remove(entity);
             if (isSaveChange)
             {
-               return  _context.SaveChanges() > 0;
+                return _context.SaveChanges() > 0;
             }
             return false;
         }
@@ -67,7 +67,7 @@ namespace Core.Repository.Base
             return false;
         }
 
-        public bool Delete(Expression<Func<TEntity, bool>> predicate,bool isSaveChange = true)
+        public bool Delete(Expression<Func<TEntity, bool>> predicate, bool isSaveChange = true)
         {
             var list = GetList(predicate);
             if (list.Count <= 0)
@@ -83,7 +83,7 @@ namespace Core.Repository.Base
             return false;
         }
 
-        public bool Delete(object id,bool isSaveChange = true)
+        public bool Delete(object id, bool isSaveChange = true)
         {
             var data = Find(id);
             if (data == null)
@@ -98,6 +98,7 @@ namespace Core.Repository.Base
             }
             return false;
         }
+
         #endregion 删
 
         #region 改
@@ -203,13 +204,14 @@ namespace Core.Repository.Base
 
         public int ExecuteSqlRaw(string sql, params object[] para)
         {
-            return _context.Database.ExecuteSqlRaw(sql,para);
+            return _context.Database.ExecuteSqlRaw(sql, para);
         }
 
-        public List<TEntity> FromSqlRaw(string sql,params object[] para)
+        public List<TEntity> FromSqlRaw(string sql, params object[] para)
         {
             return _dbset.FromSqlRaw(sql, para).ToList();
         }
+
         #endregion 执行SQL语句
     }
 }

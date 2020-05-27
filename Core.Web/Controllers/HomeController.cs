@@ -4,8 +4,6 @@ using Core.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
-using System.Linq;
-using System.Numerics;
 
 namespace Core.Web.Controllers
 {

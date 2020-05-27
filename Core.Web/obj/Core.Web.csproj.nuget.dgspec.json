@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\NetCore\\Core.Easy\\Core.Web\\Core.Web.csproj": {}
+    "H:\\Core.Easy\\Core.Web\\Core.Web.csproj": {}
   },
   "projects": {
-    "H:\\NetCore\\Core.Easy\\Core.IServices\\Core.IServices.csproj": {
+    "H:\\Core.Easy\\Core.IServices\\Core.IServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\NetCore\\Core.Easy\\Core.IServices\\Core.IServices.csproj",
+        "projectUniqueName": "H:\\Core.Easy\\Core.IServices\\Core.IServices.csproj",
         "projectName": "Core.IServices",
-        "projectPath": "H:\\NetCore\\Core.Easy\\Core.IServices\\Core.IServices.csproj",
-        "packagesPath": "C:\\Users\\chengyb\\.nuget\\packages\\",
-        "outputPath": "H:\\NetCore\\Core.Easy\\Core.IServices\\obj\\",
+        "projectPath": "H:\\Core.Easy\\Core.IServices\\Core.IServices.csproj",
+        "packagesPath": "C:\\Users\\chen\\.nuget\\packages\\",
+        "outputPath": "H:\\Core.Easy\\Core.IServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chengyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,13 +25,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj": {
-                "projectPath": "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj"
+              "H:\\Core.Easy\\Core.Model\\Core.Model.csproj": {
+                "projectPath": "H:\\Core.Easy\\Core.Model\\Core.Model.csproj"
               }
             }
           }
@@ -54,29 +54,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj": {
+    "H:\\Core.Easy\\Core.Model\\Core.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj",
+        "projectUniqueName": "H:\\Core.Easy\\Core.Model\\Core.Model.csproj",
         "projectName": "Core.Model",
-        "projectPath": "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj",
-        "packagesPath": "C:\\Users\\chengyb\\.nuget\\packages\\",
-        "outputPath": "H:\\NetCore\\Core.Easy\\Core.Model\\obj\\",
+        "projectPath": "H:\\Core.Easy\\Core.Model\\Core.Model.csproj",
+        "packagesPath": "C:\\Users\\chen\\.nuget\\packages\\",
+        "outputPath": "H:\\Core.Easy\\Core.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chengyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -115,29 +121,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\NetCore\\Core.Easy\\Core.Web\\Core.Web.csproj": {
+    "H:\\Core.Easy\\Core.Web\\Core.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\NetCore\\Core.Easy\\Core.Web\\Core.Web.csproj",
+        "projectUniqueName": "H:\\Core.Easy\\Core.Web\\Core.Web.csproj",
         "projectName": "Core.Web",
-        "projectPath": "H:\\NetCore\\Core.Easy\\Core.Web\\Core.Web.csproj",
-        "packagesPath": "C:\\Users\\chengyb\\.nuget\\packages\\",
-        "outputPath": "H:\\NetCore\\Core.Easy\\Core.Web\\obj\\",
+        "projectPath": "H:\\Core.Easy\\Core.Web\\Core.Web.csproj",
+        "packagesPath": "C:\\Users\\chen\\.nuget\\packages\\",
+        "outputPath": "H:\\Core.Easy\\Core.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chengyb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,16 +157,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "H:\\NetCore\\Core.Easy\\Core.IServices\\Core.IServices.csproj": {
-                "projectPath": "H:\\NetCore\\Core.Easy\\Core.IServices\\Core.IServices.csproj"
+              "H:\\Core.Easy\\Core.IServices\\Core.IServices.csproj": {
+                "projectPath": "H:\\Core.Easy\\Core.IServices\\Core.IServices.csproj"
               },
-              "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj": {
-                "projectPath": "H:\\NetCore\\Core.Easy\\Core.Model\\Core.Model.csproj"
+              "H:\\Core.Easy\\Core.Model\\Core.Model.csproj": {
+                "projectPath": "H:\\Core.Easy\\Core.Model\\Core.Model.csproj"
               }
             }
           }
@@ -191,6 +203,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -199,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

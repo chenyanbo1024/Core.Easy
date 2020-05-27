@@ -11,6 +11,7 @@ namespace Core.Services.Base
         public IBaseRepository<TEntity> baseDal;
 
         #region 增
+
         /// <summary>
         /// 新增单条数据
         /// </summary>
@@ -32,10 +33,11 @@ namespace Core.Services.Base
         {
             return baseDal.Insert(entities, isSaveChange);
         }
-        #endregion
 
+        #endregion 增
 
         #region 删
+
         /// <summary>
         /// 删除单条数据
         /// </summary>
@@ -46,6 +48,7 @@ namespace Core.Services.Base
         {
             return baseDal.Delete(entity, isSaveChange);
         }
+
         /// <summary>
         /// 删除多条数据
         /// </summary>
@@ -56,8 +59,8 @@ namespace Core.Services.Base
         {
             return baseDal.Delete(entitys, isSaveChange);
         }
-        #endregion
 
+        #endregion 删
 
         #region 改
 
@@ -71,10 +74,10 @@ namespace Core.Services.Base
             return baseDal.Update(entitys, isSaveChange, updatePropertyList);
         }
 
-        #endregion
-
+        #endregion 改
 
         #region 查
+
         public long Count(Expression<Func<TEntity, bool>> predicate = null)
         {
             return baseDal.Count(predicate);
@@ -94,27 +97,26 @@ namespace Core.Services.Base
         {
             return baseDal.GetList(predicate, orderby, isNoTracking);
         }
-        #endregion
 
+        #endregion 查
 
         #region 执行SQL语句
+
         public void BulkInsert<T>(List<T> entities)
         {
             throw new NotImplementedException();
         }
-
 
         public int ExecuteSqlRaw(string sql, params object[] para)
         {
             return baseDal.ExecuteSqlRaw(sql, para);
         }
 
-
         public List<TEntity> FromSqlRaw(string sql, params object[] para)
         {
             return baseDal.FromSqlRaw(sql, para);
         }
-        #endregion
 
+        #endregion 执行SQL语句
     }
 }

@@ -20,7 +20,7 @@ namespace Core.IServices.Base
 
         bool Delete(List<TEntity> entitys, bool isSaveChange = true);
 
-        #endregion 删(删除前需要查询)
+        #endregion 删
 
         #region 改
 
