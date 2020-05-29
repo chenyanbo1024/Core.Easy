@@ -13,19 +13,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Core.Model", "04.Core.Mo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Core.Common", "05.Core.Common", "{FC3C7B48-247E-4DF4-8373-AC7CDACB40CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Web", "Core.Web\Core.Web.csproj", "{4A133E7A-93C5-4578-A8F6-20B6A0194C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Web", "Core.Web\Core.Web.csproj", "{4A133E7A-93C5-4578-A8F6-20B6A0194C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.IRepository", "Core.IRepository\Core.IRepository.csproj", "{390C8B55-D1B7-4A46-ACDC-2762D666E396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.IRepository", "Core.IRepository\Core.IRepository.csproj", "{390C8B55-D1B7-4A46-ACDC-2762D666E396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Repository", "Core.Repository\Core.Repository.csproj", "{E75F9F05-F101-4669-B5A1-6A1AFB24C8FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Repository", "Core.Repository\Core.Repository.csproj", "{E75F9F05-F101-4669-B5A1-6A1AFB24C8FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.IServices", "Core.IServices\Core.IServices.csproj", "{EB6820B8-A43B-42B8-8B44-37BD15788533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.IServices", "Core.IServices\Core.IServices.csproj", "{EB6820B8-A43B-42B8-8B44-37BD15788533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Services", "Core.Services\Core.Services.csproj", "{B6BD0B34-35F7-4DFD-B539-4A1E1B1D0580}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Services", "Core.Services\Core.Services.csproj", "{B6BD0B34-35F7-4DFD-B539-4A1E1B1D0580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Model", "Core.Model\Core.Model.csproj", "{C36CA416-E61A-4293-A2CB-2990DAE8A8F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Model", "Core.Model\Core.Model.csproj", "{C36CA416-E61A-4293-A2CB-2990DAE8A8F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Common", "Core.Common\Core.Common.csproj", "{6B9873C0-EC17-4A4E-8287-3DF01FB00437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Common", "Core.Common\Core.Common.csproj", "{6B9873C0-EC17-4A4E-8287-3DF01FB00437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Core.Framework", "06.Core.Framework", "{CAF7622C-D834-4CEC-ACFE-75D5927437BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Framework", "Core.Framework\Core.Framework.csproj", "{6259CF11-1CC8-48A5-B909-0835D106639A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,10 @@ Global
 		{6B9873C0-EC17-4A4E-8287-3DF01FB00437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9873C0-EC17-4A4E-8287-3DF01FB00437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B9873C0-EC17-4A4E-8287-3DF01FB00437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6259CF11-1CC8-48A5-B909-0835D106639A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6259CF11-1CC8-48A5-B909-0835D106639A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6259CF11-1CC8-48A5-B909-0835D106639A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6259CF11-1CC8-48A5-B909-0835D106639A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +81,7 @@ Global
 		{B6BD0B34-35F7-4DFD-B539-4A1E1B1D0580} = {E3B71A20-3680-4609-9E58-E635285E48C4}
 		{C36CA416-E61A-4293-A2CB-2990DAE8A8F3} = {CB164470-7BDF-4180-91CF-9555A2EAF76F}
 		{6B9873C0-EC17-4A4E-8287-3DF01FB00437} = {FC3C7B48-247E-4DF4-8373-AC7CDACB40CC}
+		{6259CF11-1CC8-48A5-B909-0835D106639A} = {CAF7622C-D834-4CEC-ACFE-75D5927437BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B22671F3-402D-47EA-8A4B-D5FE2A232948}

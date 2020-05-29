@@ -1,8 +1,8 @@
 H:\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.deps.json
 H:\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.dll
 H:\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.pdb
-H:\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.csproj.CoreCompileInputs.cache
 H:\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.AssemblyInfoInputs.cache
 H:\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.AssemblyInfo.cs
+H:\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.csproj.CoreCompileInputs.cache
 H:\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.dll
 H:\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.pdb

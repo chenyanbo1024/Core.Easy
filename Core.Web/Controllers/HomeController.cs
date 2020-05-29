@@ -4,6 +4,7 @@ using Core.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using System.IO;
 
 namespace Core.Web.Controllers
 {
@@ -43,6 +44,7 @@ namespace Core.Web.Controllers
                 Gender = 1,
                 Stu_No = "15130948002"
             });
+            Path.Combine()
             return Json(isSuc);
         }
 

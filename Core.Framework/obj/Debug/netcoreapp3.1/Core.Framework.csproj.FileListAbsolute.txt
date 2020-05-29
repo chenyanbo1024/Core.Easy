@@ -1,0 +1,3 @@
+H:\Core.Easy\Core.Framework\obj\Debug\netcoreapp3.1\Core.Framework.AssemblyInfoInputs.cache
+H:\Core.Easy\Core.Framework\obj\Debug\netcoreapp3.1\Core.Framework.AssemblyInfo.cs
+H:\Core.Easy\Core.Framework\obj\Debug\netcoreapp3.1\Core.Framework.csproj.CoreCompileInputs.cache
