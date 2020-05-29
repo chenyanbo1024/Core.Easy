@@ -1,4 +1,4 @@
-﻿using Core.IRepository.Base;
+﻿using Core.IRepository;
 using Core.IServices.Base;
 using System;
 using System.Collections.Generic;

@@ -1,12 +1,18 @@
-﻿namespace Core.Model
+using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace Core.Model
 {
-    /// <summary>
-    /// 班级
-    /// </summary>
-    public class Classes
-    {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public int Grade { get; set; }
-    }
-}
+	 public class Classes
+	 {
+	 		
+		[Key]
+		[Required]
+		public int ID { get; set; }
+			
+		public string Name { get; set; }
+			
+		public int? Grade { get; set; }
+	 
+	 }
+}	 

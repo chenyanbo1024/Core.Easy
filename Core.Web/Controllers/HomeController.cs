@@ -2,6 +2,7 @@
 using Core.Model;
 using Core.Web.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
 using System.IO;
@@ -39,12 +40,11 @@ namespace Core.Web.Controllers
         {
             bool isSuc = _studentServices.Insert(new Student
             {
-                Class_ID = 1,
-                Name = "chen",
+                Class_ID = 2,
+                Name = "aaaaa_yanbo",
                 Gender = 1,
-                Stu_No = "15130948002"
+                Stu_No = "445121"
             });
-            Path.Combine()
             return Json(isSuc);
         }
 

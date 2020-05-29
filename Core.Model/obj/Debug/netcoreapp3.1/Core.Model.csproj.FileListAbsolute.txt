@@ -7,6 +7,15 @@ H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfoI
 H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfo.cs
 H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.dll
 H:\NetCore\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.pdb
+H:\Blazor\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.deps.json
+H:\Blazor\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.dll
+H:\Blazor\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.pdb
+H:\Blazor\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.csprojAssemblyReference.cache
+H:\Blazor\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfoInputs.cache
+H:\Blazor\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.AssemblyInfo.cs
+H:\Blazor\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.csproj.CoreCompileInputs.cache
+H:\Blazor\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.dll
+H:\Blazor\Core.Easy\Core.Model\obj\Debug\netcoreapp3.1\Core.Model.pdb
 H:\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.deps.json
 H:\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.dll
 H:\Core.Easy\Core.Model\bin\Debug\netcoreapp3.1\Core.Model.pdb

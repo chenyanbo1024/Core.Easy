@@ -1,4 +1,4 @@
-﻿using Core.IRepository.Base;
+﻿using Core.IRepository;
 using Core.Model.EFDbContext;
 using Microsoft.EntityFrameworkCore;
 using System;

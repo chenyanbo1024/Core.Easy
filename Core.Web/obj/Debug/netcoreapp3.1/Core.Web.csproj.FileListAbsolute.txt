@@ -75,6 +75,15 @@ H:\NetCore\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csproj.CopyComple
 H:\NetCore\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\staticwebassets\Core.Web.StaticWebAssets.Manifest.cache
 H:\NetCore\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\staticwebassets\Core.Web.StaticWebAssets.xml
 H:\NetCore\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.genruntimeconfig.cache
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csprojAssemblyReference.cache
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.AssemblyInfoInputs.cache
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.AssemblyInfo.cs
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.csproj.CoreCompileInputs.cache
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.MvcApplicationPartsAssemblyInfo.cache
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.RazorAssemblyInfo.cache
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.RazorAssemblyInfo.cs
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.dll
+H:\Blazor\Core.Easy\Core.Web\obj\Debug\netcoreapp3.1\Core.Web.pdb
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\appsettings.Development.json
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\appsettings.json
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json

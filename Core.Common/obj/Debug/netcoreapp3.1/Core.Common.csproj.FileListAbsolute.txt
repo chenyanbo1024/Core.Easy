@@ -1,3 +1,12 @@
+H:\Blazor\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.deps.json
+H:\Blazor\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.dll
+H:\Blazor\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.pdb
+H:\Blazor\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.csprojAssemblyReference.cache
+H:\Blazor\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.AssemblyInfoInputs.cache
+H:\Blazor\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.AssemblyInfo.cs
+H:\Blazor\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.csproj.CoreCompileInputs.cache
+H:\Blazor\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.dll
+H:\Blazor\Core.Easy\Core.Common\obj\Debug\netcoreapp3.1\Core.Common.pdb
 H:\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.deps.json
 H:\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.dll
 H:\Core.Easy\Core.Common\bin\Debug\netcoreapp3.1\Core.Common.pdb

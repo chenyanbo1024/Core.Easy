@@ -1,3 +1,13 @@
+H:\Blazor\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Repository.deps.json
+H:\Blazor\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Repository.dll
+H:\Blazor\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Repository.pdb
+H:\Blazor\Core.Easy\Core.Repository\obj\Debug\netcoreapp3.1\Core.Repository.csprojAssemblyReference.cache
+H:\Blazor\Core.Easy\Core.Repository\obj\Debug\netcoreapp3.1\Core.Repository.AssemblyInfoInputs.cache
+H:\Blazor\Core.Easy\Core.Repository\obj\Debug\netcoreapp3.1\Core.Repository.AssemblyInfo.cs
+H:\Blazor\Core.Easy\Core.Repository\obj\Debug\netcoreapp3.1\Core.Repository.csproj.CoreCompileInputs.cache
+H:\Blazor\Core.Easy\Core.Repository\obj\Debug\netcoreapp3.1\Core.Repository.csproj.CopyComplete
+H:\Blazor\Core.Easy\Core.Repository\obj\Debug\netcoreapp3.1\Core.Repository.dll
+H:\Blazor\Core.Easy\Core.Repository\obj\Debug\netcoreapp3.1\Core.Repository.pdb
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Repository.deps.json
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Repository.dll
 H:\Core.Easy\Core.Web\bin\Debug\netcoreapp3.1\Core.Repository.pdb

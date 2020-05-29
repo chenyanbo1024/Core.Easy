@@ -2,7 +2,7 @@ using Core.Model;
 
 namespace Core.IRepository
 {	
-	public interface IClassesRepository : IBaseRepository<Classes>
+	public interface ITmpRepository : IBaseRepository<Tmp>
     {
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Core.IRepository.Base
+namespace Core.IRepository
 {
     /// <summary>
     /// 仓储基类

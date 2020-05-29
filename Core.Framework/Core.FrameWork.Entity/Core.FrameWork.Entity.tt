@@ -15,8 +15,8 @@
 <#@ include file="$(ProjectDir)ModelAuto.ttinclude"	#>
 <# var manager = new Manager(Host, GenerationEnvironment, true); #>
 <# 
-	var OutputPath1 =  Path.GetDirectoryName(Host.TemplateFile);
-	OutputPath1 = Path.Combine(OutputPath1,"Entity");
+	var OutputPath1 =Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Host.TemplateFile+"..")+"..")+"..");
+	OutputPath1 = Path.Combine(OutputPath1,"Core.Model");
 	if (!Directory.Exists(OutputPath1))
 	{
 	    Directory.CreateDirectory(OutputPath1);
@@ -29,24 +29,22 @@
 	   #>
 using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Core.Framework
+namespace Core.Model
 {
-	 ///<summary>
-	 ///<#=tableName#>
-	 ///</summary>
-	 [Table("<#=tableName#>")]	
 	 public class <#=tableName#>
 	 {
 	 <# foreach(DbColumn column in DbHelper.GetDbColumns(config.ConnectionString, config.DbDatabase, tableName)){#>
+		<#
+		if(column.Remark != "")
+		{#>
 
-		 /// <summary>
-        /// <#= column.Remark == "" ? column.ColumnName : column.Remark.Replace("\r\n"," ") #>
-        /// </summary>
-		<# 
-		 if(column.IsPrimaryKey) 
-		 {#>[Key]
+		/// <summary>
+		/// <#= column.Remark == "" ? column.ColumnName : column.Remark.Replace("\r\n"," ") #>
+		/// </summary>
+		<#}#><# if(column.Remark == "") {#>
+
+		<#}#><# if(column.IsPrimaryKey) {#>[Key]
 		<#}#><# if(!column.IsNullable) {#>[Required]
 		<# }#>public <#= column.CSharpType#><# if(column.CommonType.IsValueType && column.IsNullable){#>?<#}#> <#=column.ColumnName#> { get; set; }
 	<#

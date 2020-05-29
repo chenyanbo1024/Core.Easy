@@ -5,17 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Core.FrameWork.Entity\Core.FrameWork.Entity.\">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Core.FrameWork.Entity.tt</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="Core.FrameWork.Entity\Core.FrameWork.Entity.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Core.FrameWork.Entity.cs</LastGenOutput>
+      <LastGenOutput>Core.FrameWork.Entity.txt</LastGenOutput>
+    </None>
+    <None Update="Core.FrameWork.IRepository\Core.FrameWork.IRepository.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Core.FrameWork.IRepository.cs</LastGenOutput>
+    </None>
+    <None Update="Core.FrameWork.IRepository\Core.FrameWork.IRepository.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Core.FrameWork.IRepository.cs</LastGenOutput>
     </None>
     <None Update="ModelAuto.ttinclude">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -28,11 +28,29 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Core.FrameWork.IRepository\Core.FrameWork.IRepository.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Core.FrameWork.IRepository.tt</DependentUpon>
+    </Compile>
     <Compile Update="ModelAuto.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ModelAuto.ttinclude</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Core.FrameWork.Entity\Core.FrameWork.Entity.\">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Core.FrameWork.Entity.tt</DependentUpon>
+    </None>
+    <None Include="Core.FrameWork.IRepository\Core.FrameWork.IRepository.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Core.FrameWork.IRepository.tt</DependentUpon>
+    </None>
   </ItemGroup>
 
 </Project>
