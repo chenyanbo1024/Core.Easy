@@ -12,7 +12,8 @@ namespace Core.Common.Helper
         public static int ObjToInt(this object thisValue)
         {
             int reval = 0;
-            if (thisValue == null) return 0;
+            if (thisValue == null)
+                return 0;
             if (thisValue != null && thisValue != DBNull.Value && int.TryParse(thisValue.ToString(), out reval))
             {
                 return reval;
@@ -57,13 +58,19 @@ namespace Core.Common.Helper
 
         public static string ObjToString(this object thisValue)
         {
-            if (thisValue != null) return thisValue.ToString().Trim();
-            return "";
+            if (thisValue != null)
+            {
+                return thisValue.ToString().Trim();
+            }
+            return string.Empty;
         }
 
         public static string ObjToString(this object thisValue, string errorValue)
         {
-            if (thisValue != null) return thisValue.ToString().Trim();
+            if (thisValue != null)
+            {
+                return thisValue.ToString().Trim();
+            }
             return errorValue;
         }
 

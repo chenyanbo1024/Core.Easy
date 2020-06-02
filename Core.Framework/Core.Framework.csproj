@@ -13,10 +13,6 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Core.FrameWork.IRepository.cs</LastGenOutput>
     </None>
-    <None Update="Core.FrameWork.IRepository\Core.FrameWork.IRepository.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Core.FrameWork.IRepository.cs</LastGenOutput>
-    </None>
     <None Update="ModelAuto.ttinclude">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>ModelAuto.cs</LastGenOutput>
@@ -41,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Core.FrameWork.Entity\Core.FrameWork.Entity.\">
+    <None Include="Core.FrameWork.Entity\Core.FrameWork.Entity">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Core.FrameWork.Entity.tt</DependentUpon>
